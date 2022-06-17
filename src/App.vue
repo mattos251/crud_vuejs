@@ -1,8 +1,9 @@
 <template>
-  <Navbar :logo="logo_src" :alt="app_name" />
-  <router-view/>
-  <Footer />
 
+  <Navbar :logo="logo_src" :alt="app_name" />
+  <router-view />
+  <Footer />
+  
 </template>
 
 <script>
@@ -27,10 +28,22 @@ import Footer from './components/Footer.vue';
 <style>
 
 * {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  
-  
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container{
+  margin: 50px;
+  min-height: 363px;
+}
+
+div h1{
   text-align: center;
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #222;
 }
 
 </style>

@@ -6,7 +6,7 @@
             <img :src="logo" :alt="alt" id="logo">
         </router-link>
 
-        <router-link to="/"><a> Home</a> </router-link> |
+        <router-link to="/"><a> Home</a></router-link>
         <router-link to="/Pedidos"><a>Pedidos</a></router-link>
     </div>
     
